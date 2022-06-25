@@ -5,7 +5,7 @@
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "heroku-postbuild": "node app.js"
+        "heroku-postbuild": "npm run start"
     },
     "author": "sahil aneja",
     "license": "ISC",
